@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a New Course</title>
+</head>
+<body>
+  <h1>Course Information</h1>
+  <form method="POST" action="/addrec">
+    <label for="courseID">Course Title:</label>
+    <input type="text" name="courseID" id="courseID" required><br>
+
+    <label for="department">Department:</label>
+    <input type="text" name="department" id="department" required><br>
+
+    <label for="semester">Semester:</label>
+    <input type="text" name="semester" id="semester" required><br>
+
+    <label for="enrollment">Enrollment:</label>
+    <input type="number" name="enrollment" id="enrollment" required><br>
+
+    <h1>Instructor Information</h1>
+    <label for="instructorID">Instructor ID:</label>
+    <input type="text" name="instructorID" id="instructorID" required><br>
+
+    <label for="department2">Department:</label>
+    <input type="text" name="department2" id="department2" required><br>
+
+    <label for="jobTitle">Job Title:</label>
+    <input type="text" name="jobTitle" id="jobTitle" required><br>
+
+    <input type="submit" value="Submit"><br>
+  </form>
+  <a href="/">Back</a>
+</body>
+</html>
